@@ -1,0 +1,148 @@
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+}
+
+#taskField, #loginField {
+  display: none;
+}
+
+#userBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px;
+}
+
+#userBox p {
+  padding: 0px 5px;
+  font-size: 20px;
+}
+
+.showHiddenLogin {
+  height: 25px;
+}
+
+input[type="button"] {
+  height: 30px;
+  border: none;
+  background-color: rgb(230, 230, 230);
+}
+
+input[type="button"]:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.page-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.num {
+  margin-top: 8px;
+  color: rgb(110, 110, 110);
+}
+
+#loginBox p, #sort_menu p {
+  background-color: rgb(230, 230, 230);
+  padding: 1px 8px;
+  border-radius: 5px;
+}
+
+#loginBox>div {
+  margin-bottom: 3px;
+}
+
+#loginBox p {
+  width: 61px;
+  margin: 8px 0px;
+}
+
+.showHiddenTask {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;  
+}
+textarea {
+  width: 100%; 
+  resize: none;
+  border-radius: 5px;
+  min-height: 170px;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.list-tasks textarea {
+  width: 350px;
+}
+
+.showHiddenTask:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+input {
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  top: 0;
+}
+
+/* List-sort: start */
+.menu ul ul > li:hover{
+  background-color: rgb(241, 241, 241);
+}
+.menu ul li, .menu ul{
+  display: inline-block;
+}
+.menu ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.menu ul ul{
+  display: none;
+  position: absolute;
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+  margin-top: -15px;
+  margin-left: -120px;
+  width: 220px;
+  padding: 10px;
+
+}
+.menu ul a{
+  text-decoration: none;
+  margin: 5px;
+}
+.menu ul ul a{
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li:hover li{
+  display: block;
+}
+
+.menu p {
+  text-transform: uppercase;
+}
+/* List-sort: end */
